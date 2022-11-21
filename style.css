@@ -1,0 +1,350 @@
+@font-face {
+    font-family: font1;
+    src: url(font/JTUSjIg1_i6t8kCHKm459Wlhyw.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(font/KFOlCnqEu92Fr1MmSU5fBBc4.ttf);
+}
+
+@font-face {
+    font-family: font3;
+    src: url(font/KFOlCnqEu92Fr1MmWUlfBBc4.ttf);
+}
+
+@font-face {
+    font-family: font4;
+    src: url(font/KFOmCnqEu92Fr1Mu4mxK.ttf);
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    /* background-color: black; */
+}
+
+
+/* Header Style*/
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    background-image: url("Images/background images/global-nav-bg.png");
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_header {
+    display: flex;
+}
+
+.left_header ul {
+    display: flex;
+    list-style: none;
+}
+
+.left_header ul li {
+    padding-right: 5px;
+}
+
+.logo {
+    width: 125px;
+    height: 50px;
+    padding: 15px 10px;
+}
+
+.nav_block {
+    width: 98px;
+    height: 50px;
+    padding: 18px 8px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: darkgray;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.right_header {
+    display: flex;
+}
+
+.icon_purchase {
+    background-color: #629431;
+    width: 170px;
+    height: 50px;
+    padding: 15px 15px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.profile {
+    width: 170px;
+    height: 50px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: darkgray;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 19px 15px 19px 15px;
+}
+
+.sign_in {
+    width: 170px;
+    height: 50px;
+    font-family: Montserrat, Arial, sans-serif;
+    color: darkgray;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 19px 15px;
+    text-align: center;
+}
+
+/* Body1 Style*/
+
+.image_body {
+    width: 100%;
+    height: 594.5px;
+}
+
+.background_img {
+    width: 100%;
+    height: 100%;
+}
+
+.inner_image_body {
+    width: 450px;
+    height: 466px;
+    position: absolute;
+    top: 122;
+    left: 61px;
+    bottom: 20px;
+}
+
+.inner_image_body_text {
+    width: 100%;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 17px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.inner_body_button {
+    width: 200px;
+    height: 43px;
+    margin: 5px;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.the_body {
+    position: relative;
+}
+
+/* the body ends here*/
+.the_body1 {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
+
+.blue_background {
+    width: 67.37%;
+    height: 350px;
+    position: relative;
+}
+
+.overlay_div {
+    position: absolute;
+    left: 10px;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 158px;
+    height: 300px;
+    text-align: center;
+    font-family: font4;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+}
+
+.overlay_div p {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.available_now {
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid;
+    border-color: #FFF;
+    width: 80%;
+    height: 50px;
+}
+
+.mordern_warfare {
+    width: 33.73%;
+    height: 350px;
+}
+
+/* second body*/
+
+.the_body2 {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
+.warzone{
+    width: 33.33%;
+}
+.mw{
+    width: 33.33%;
+}
+.cod_mobile{
+    width:33.34%
+}
+.inner_mordern_warfare {
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+/* carousel */
+.root_carousel{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: grey;
+    padding: 36px 120px;
+    color: #FFF;
+}
+.carousel_header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    line-height: 30px;
+    border-color: gray;
+}
+.right_carousel_header ul{
+    display: flex;
+    list-style: none;
+}
+.get_the_game{
+    display: flex;
+    justify-content: center;
+}
+.body_get_the_game{
+    background-color: black;
+    width: 100%;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.get_the_game img{
+    margin: 10px;
+}
+.headline{
+    font-weight: 800px;
+    font-family: font1;
+    color: grey;
+    font-size: 24px;
+}
+
+.root_footer{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+.footer{
+    width: 900px;
+    height: 508px;
+    text-align: center;
+    background-color: black;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center;
+}
+.footer_header{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    border-bottom: 1px solid;
+    border-color: grey;
+    padding-bottom: 20px;
+    color: grey;
+}
+.footer_logo_section{
+    display: flex;
+}
+.footer_logo_section_left{
+    width: 435px;
+    height: 234px;
+}
+.row1{
+    width: 435px;
+    display: flex;
+}
+.greyscale_icons{
+    width: 145px;
+    height: 58px;
+    padding: 20px ;
+    filter: grayscale(100%);
+    filter: brightness(30%);
+}
+.greyscale_icons:hover {
+    filter: grayscale(0%);
+    filter: brightness(100%);
+}
+
+.row2{
+    width: 435px;
+    display: flex;
+}
+.row3{
+    width: 435px;
+    display: flex;
+}.row4{
+    width: 435px;
+    display: flex;
+}
+
+.footer_logo_section_right{
+    width: 417px;
+    height: 175px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.footer_text{
+    font-family: font2;
+    font-size: 11px;
+    color: gray;
+    letter-spacing: 1px;
+}
