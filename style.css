@@ -26,7 +26,7 @@
 }
 
 
-/* Header Style*/
+/* Header Style Section*/
 
 .header {
     width: 100%;
@@ -63,8 +63,14 @@
     font-family: Montserrat, Arial, sans-serif;
     color: darkgray;
     font-size: 12px;
+    text-align: center;
     letter-spacing: 1px;
     font-weight: 600;
+}
+.nav_block:hover{
+    background-color: black;
+    color: #629431;
+    text-shadow: #629431;
 }
 
 .right_header {
@@ -81,6 +87,8 @@
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 1px;
+    filter: brightness(70%);
+    cursor: pointer;
 }
 
 .profile {
@@ -90,11 +98,14 @@
     color: darkgray;
     font-size: 12px;
     font-weight: 600;
+    cursor: pointer;
     letter-spacing: 1px;
     padding: 19px 15px 19px 15px;
+    
 }
 
 .sign_in {
+    cursor: pointer;
     width: 170px;
     height: 50px;
     font-family: Montserrat, Arial, sans-serif;
@@ -105,8 +116,18 @@
     padding: 19px 15px;
     text-align: center;
 }
+.sign_in:hover{
+    color: lightgrey;
+}
+.profile:hover{
+    color: lightgray;
+}
+.icon_purchase:hover{
+    filter: brightness(100%);
+}
 
-/* Body1 Style*/
+
+/* Body Style Starts here*/
 
 .image_body {
     width: 100%;
@@ -125,6 +146,12 @@
     top: 122;
     left: 61px;
     bottom: 20px;
+}
+.inner_image_body img{
+    transition: 0.5s;
+}
+.inner_image_body img:hover{
+    scale: 105%;
 }
 
 .inner_image_body_text {
@@ -145,13 +172,20 @@
     font-family: Montserrat, Arial, sans-serif;
     font-size: 17px;
     font-weight: 600;
+    transition: 0.5s;
+}
+.inner_body_button:hover{
+    background-color: darkgrey;
 }
 
 .the_body {
     position: relative;
 }
 
-/* the body ends here*/
+/* the body style ends here*/
+
+/* The Image section Starts here */
+
 .the_body1 {
     display: flex;
     width: 100%;
@@ -199,8 +233,6 @@
     height: 350px;
 }
 
-/* second body*/
-
 .the_body2 {
     display: flex;
     width: 100%;
@@ -214,7 +246,8 @@
     width: 33.33%;
 }
 .cod_mobile{
-    width:33.34%
+    width:33.34%;
+    
 }
 .inner_mordern_warfare {
     display: flex;
@@ -227,29 +260,30 @@
     line-height: 1.2;
     text-transform: uppercase;
 }
+.local img:hover{
+    scale: 110%;
+}
+.local{
+    overflow: hidden;
+}
+.local img{
+    transition: 0.5s;
+}
+.blue_background img:hover{
+    scale: 110%;
+}
+.mordern_warfare img:hover{
+    scale: 110%;
+}
 
-/* carousel */
-.root_carousel{
-    background-color: black;
-    width: 100%;
-    height: auto;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-color: grey;
-    padding: 36px 120px;
-    color: #FFF;
+.cod_mobile img:hover{
+    scale: 110%;
 }
-.carousel_header{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid;
-    line-height: 30px;
-    border-color: gray;
-}
-.right_carousel_header ul{
-    display: flex;
-    list-style: none;
-}
+
+/* The Image section ends here */
+
+/* The Footer starts here */
+
 .get_the_game{
     display: flex;
     justify-content: center;
@@ -348,3 +382,4 @@
     color: gray;
     letter-spacing: 1px;
 }
+ /* The footer ends here */
